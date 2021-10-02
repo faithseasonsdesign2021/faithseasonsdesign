@@ -219,7 +219,7 @@ a{
 }
 @media screen and (max-width:767px){
     .working-section{
-        min-height:65vh;
+        min-height:75vh;
         background:url("../images/cload.jpg");
         background-size:100% 100%;
         background-repeat:no-repeat;
@@ -228,5 +228,36 @@ a{
         min-height:65vh;
         background-color:rgb(0 0 0 / 94%);
         background-size:100%;
+    }
+}
   
 /*coding for the working section ended here*/
+
+/*coding for the reccomended project start here*/
+.project-links-wrapper .project-link{
+    margin-left:20px;
+} 
+@media screen and (max-width:767px){
+    .project-links-wrapper{
+        text-align:center;
+    }
+    .house-cols{
+        margin-top:10px;
+    }
+    .review-section{
+        margin-top:40px !important;
+    }
+}
+.review-description{
+    font-weight:bold;
+    font-size:12pt;
+    margin-top:-20px;
+}
+.avatar {
+    vertical-align: middle;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+  }
+
+/*coding for the reccomended project ended here*/
