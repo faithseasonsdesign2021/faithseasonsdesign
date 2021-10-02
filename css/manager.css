@@ -1,0 +1,139 @@
+
+
+*{
+    margin:0;
+    padding:0;
+    font-family: 'Manrope', sans-serif  !important;
+}
+a{
+    text-decoration:none !important;
+    color:white !important;
+    font-weight: bold !important;
+}
+.mask{
+    
+    background-color:rgb(0 0 0 / 87%);
+}
+.landing-page{
+    min-height:85vh;
+    background:url("../images/jumbo.jpg");
+    background-size:100% 100%;
+    background-repeat:no-repeat;
+}
+.mask{
+    min-height:85vh;
+    background-color:rgb(0 0 0 / 87%);
+    background-size:100%;
+}
+
+/*navigation coding start here*/
+
+/*navigation coding for bigger devices start here*/
+.md-nav-wrapper,.md-inner-wrapper{
+    height:15vh;
+}
+.md-inner-wrapper{
+    display:flex;
+    align-items:center;
+}
+.md-list-wrapper a{
+    font-size:13pt;
+}
+.logo-wrapper{
+    flex:1;
+}
+.md-list-wrapper{
+    flex: 1;
+}
+.logo{
+    height:15vh;
+}
+
+/*navigation coding for bigger devices ended here*/
+
+/*navigation coding for smaller devices start here*/
+.sm-inner-wrapper,.sm-nav-wrapper{
+    height:15vh;
+}
+.sm-inner-wrapper{
+     display:flex;
+     align-items:center;
+}
+.button-wrapper{
+    flex:1;
+}
+.call-to-action{
+    color:black;
+    font-weight:bolder;
+    background-color:#b8ef01;
+    border:#b8ef01;
+}
+/*navigation coding for smaller devices ended here*/
+
+/*navigation coding ended here here*/
+
+/*coding for team management section start here*/
+
+.custom-shape-divider-bottom-1632950670 .shape-fill2 {
+    fill: #ffffff;
+}
+.custom-shape-divider-bottom-1632943829 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-bottom-1632943829 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 104px;
+}
+
+.custom-shape-divider-bottom-1632943829 .shape-fill {
+    fill: #b8de3a;
+}
+.team-section{
+    min-height:30vh;
+    background:url("../images/serving5.jpg");
+    background-size:100% 100%;
+    background-repeat:no-repeat;
+}
+
+.mask2{
+    min-height:30vh;
+    background-color:rgb(0 0 0 / 87%);
+    background-size:100%;
+    margin-top:-60px;
+}
+.team-caption{
+    font-size:30pt;
+}
+.team-description{
+    font-size:14pt;
+}
+.custom-shape-divider-bottom-1632943829 .shape-fill3 {
+    fill: #ffffff;
+}
+.team-caption{
+    margin-top:-30px;
+}
+@media screen and (max-width:767px){
+    .mask2{
+        padding-bottom:0px;
+    }
+    .team-caption{
+        font-size:26pt;
+        margin-top:-80px;
+    }
+    .team-description{
+        font-size:10pt;
+    }
+    .manager-col{
+    margin-top:28px;
+}
+}
+/*coding for team management section ended here*/

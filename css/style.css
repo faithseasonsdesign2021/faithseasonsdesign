@@ -1,0 +1,232 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: 'Manrope', sans-serif  !important;
+}
+a{
+    text-decoration:none !important;
+    color:white !important;
+    font-weight: bold !important;
+}
+
+
+/*coding for the navigation start here*/
+.lg-navigation-wrapper{
+    display:flex;
+}
+.lg-inner-nav-wrapper .logo-wrapper{
+    flex:1;
+}
+.lg-navigation-wrapper .lg-inner-nav-wrapper{
+    height:100px;
+}
+.sm-navigation-wrapper .sm-inner-nav-wrapper{
+    height:100px;
+}
+.logo{
+    height:50px;
+}
+
+
+@media screen and (max-width:221px){
+    .sm-logo{
+        height:20px;
+    }
+}
+
+@media screen and (max-width:767px){
+    .landing-page{
+        min-height:70vh;
+        text-align:center;
+        background: url("../images/home.png") !important;
+        background-size:100% 100%;
+        background-repeat:no-repeat;
+    }
+    .project-cols{
+    margin-top:40px;
+    }
+    .card-cols{
+        margin-top:40px;
+    }
+    .working-section{
+        text-align:center;
+    }
+}
+
+@media screen and (min-width:767px) and (max-width:993px){
+    .logo{
+        height:40px !important;
+    }
+    .lg-inner-nav-wrapper a{
+        font-size:12pt;
+    }
+}
+@media screen and (min-width:767px) and (max-width:1393px){
+   .welcome-caption{
+       font-size:35pt;
+   }
+   .home-img{
+       width:600px !important;
+       height:560px;
+   }
+}
+@media screen and (min-width:767px) and (max-width:2993px){
+    .call-to-action-contact{
+        margin-left:20px;
+    }
+    .services-card{
+        padding-left:40px;
+        padding-right:40px;
+    }
+}
+/*coding for the navigation ended here*/
+
+
+/*coding for the landing pages start here*/
+.mask{
+    
+    background-color:rgb(0 0 0 / 87%);
+}
+.landing-page{
+    min-height:70vh;
+    background:url("../images/cload.jpg");
+    background-size:100% 100%;
+    background-repeat:no-repeat;
+}
+.mask{
+    min-height:85vh;
+    background-color:rgb(0 0 0 / 94%);
+    background-size:100%;
+}
+.call-to-action{
+    background-color:#fde414 !important;
+}
+.call-to-action-contact{
+    background-color:white;
+}
+
+.custom-shape-divider-bottom-1633125226 {
+    position: absolute;
+    bottom: 0px;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-bottom-1633125226 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 100px;
+}
+
+.custom-shape-divider-bottom-1633125226 .shape-fill {
+    fill: #ffd700;
+}
+/*coding for the landing page ended here*/
+
+/*coding for project section start here*/
+.project-section{
+    background-color:gold;
+}
+
+/*coding for project section ended here*/
+
+/*coding for cards section start here*/
+.card-section{
+    background-color:#f3ebeb;
+    padding-bottom:150px !important;
+}
+.card-title , .card-text{
+    font-weight:bold;
+}
+.card-button{
+    background-color:gold;
+    font-weight:bolder;
+    width:160px;
+    height:40px;
+    line-height:30px;
+}
+.custom-shape-divider-bottom-1633130637 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-bottom-1633130637 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 86px;
+}
+
+.custom-shape-divider-bottom-1633130637 .shape-fill {
+    fill: #FFFFFF;
+}
+/*coding for cards section ended here*/
+
+/*coding for services section start here*/
+.services-wrapper{
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-auto-rows:minmax(200px,auto);
+    column-gap: 20px;
+    row-gap:40px;
+    margin-top:50px;
+}
+.services-card{
+    text-align:center;
+    display: flex;
+    align-items: center;
+    flex-direction:column;
+    border:solid 0.5px grey !important;
+}
+@media screen and (max-width:767px){
+    .services-wrapper{
+        display:grid;
+        grid-template-columns:repeat(1,1fr);
+        row-gap:20px;
+    }
+    .working-section{
+        min-height:65vh;
+        background:url("../images/cload.jpg");
+        background-size:100% 100%;
+        background-repeat:no-repeat;
+    }
+    .mask2{
+        min-height:65vh;
+        background-color:rgb(0 0 0 / 94%);
+        background-size:100%;
+    }
+}
+/*coding for services section ended here*/
+
+/*coding for the working section start here*/
+.working-section{
+    min-height:55vh;
+    background:url("../images/cload.jpg");
+    background-size:100% 100%;
+    background-repeat:no-repeat;
+}
+.mask2{
+    min-height:55vh;
+    background-color:rgb(0 0 0 / 94%);
+    background-size:100%;
+}
+@media screen and (max-width:767px){
+    .working-section{
+        min-height:65vh;
+        background:url("../images/cload.jpg");
+        background-size:100% 100%;
+        background-repeat:no-repeat;
+    }
+    .mask2{
+        min-height:65vh;
+        background-color:rgb(0 0 0 / 94%);
+        background-size:100%;
+  
+/*coding for the working section ended here*/

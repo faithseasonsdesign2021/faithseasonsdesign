@@ -1,0 +1,125 @@
+body{
+    padding-top:0;
+    margin:0;
+    background-color:black;
+}
+/*computer navigation bar coding start here*/
+.computer-li{
+    margin-left:20px !important;
+}
+/*computer navigation bar coding ended here*/
+/*indtroduction section start*/
+
+/*introduction section enddd*/
+/*coding for landing page section start here*/
+.landingPageBackground{
+    background:url("../images/team5.jpg");
+    height:700px;
+    background-size:100% 100%;
+    background-repeat: no-repeat;
+}
+.landingPageMask{
+    background-color:rgb(0 0 0 / 87%);
+    height:700px;
+}
+.bg-body-card-caption{
+  color:black !important;
+}
+.leading-caption{
+  font-size:40px;
+}
+/*coding for landing page section ended here*/
+/*introduction coding section start here*/
+.introduction-section{
+  height:90vh !important;
+}
+.client-caption{
+  margin-top:20vh !important;
+}
+/*introduction coding section ended here*/
+.avatar {
+  vertical-align: middle;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  }
+.section{
+    position:relative;
+    padding:150px 20vw;
+}
+.about{
+    padding:150px 20vw;
+    position: relative;
+}
+.custom-shape-divider-bottom-1629677517 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.custom-shape-divider-bottom-1629677517 svg {
+  position: relative;
+  display: block;
+  width: calc(138% + 1.3px);
+  height: 131px;
+}
+
+.custom-shape-divider-bottom-1629677517 .shape-fill {
+  fill: #7ED321;
+}
+
+/** For mobile devices **/
+@media (max-width: 767px) {
+  .custom-shape-divider-bottom-1629677517 svg {
+      width: calc(185% + 1.3px);
+      height: 163px;
+  }
+  .introduction-section{
+    height:118vh !important;
+  }
+}
+@media screen and (min-width:787px) and (max-width:2000px){
+  .welcome-caption{
+      font-size:60px;
+  }
+  .let-caption{
+      font-size:30px;
+  }
+}
+
+/*about shape*/
+.custom-shape-divider-top-1629715212 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.custom-shape-divider-top-1629715212 svg {
+  position: relative;
+  display: block;
+  width: calc(117% + 1.3px);
+  height: 143px;
+}
+
+.custom-shape-divider-top-1629715212 .shape-fill {
+  fill: #7ED321;
+}
+
+/** For mobile devices **/
+@media (max-width: 767px) {
+  .custom-shape-divider-top-1629715212 svg {
+      width: calc(145% + 1.3px);
+      height: 100px;
+  }
+  .client-caption{
+  margin-top:15vh !important;
+  }
+}
+/*about shape coding ended here*/
